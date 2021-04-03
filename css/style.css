@@ -1,0 +1,38 @@
+:root {
+    --defaultGrey: #5a5a5a;
+    --secondaryGrey: rgb(224, 224, 224);
+}
+
+body {
+    background-color: var(--secondaryGrey);
+}
+
+.container {
+    text-align: center;
+}
+
+#gameTitle {
+    color: var(--defaultGrey);
+    font-size: 64px;
+}
+
+#btnChangeSize {
+    width: 128px;
+    height: 64px;
+
+    background-color: var(--defaultGrey);
+    color: white;
+    outline: none;
+}
+
+.grid-container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: 25px auto;
+    border: 2px solid var(--defaultGrey);
+}
+
+.grid-item {
+    border: 1px solid var(--defaultGrey);
+}
